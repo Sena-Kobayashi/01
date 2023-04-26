@@ -1,0 +1,107 @@
+@charset "utf-8";
+body {
+	background-color: #FFFF99;
+}
+
+header{
+    width: 100%;
+    height: 320px;
+    background: url(../HTML/img/0008.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.head_container{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 20px;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header h2{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+.red{
+    color: red;
+}
+.mokuji h2{
+    text-align: center;
+}
+
+.ulmokuji{
+    width: fit-content;
+    margin: auto;
+}
+.mokuji ul{
+    border: 2px solid blue;
+    width: 800px;
+    padding: 17px;
+    list-style-position: inside;
+    background-color: rgb(183, 244, 238);
+    text-align: center;
+}
+
+.mokuji li{
+    border-bottom: 1px dotted black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lorentz h2{
+    border-bottom: 2px dotted black;
+}
+
+.muki h2{
+    border-bottom: 2px dotted black;
+}
+
+.sim h2{
+    border-bottom: 2px dotted black;
+}
+
+footer{
+    width: 100%;
+    background-color:rgb(183, 244, 238);
+    margin: 0px;
+    padding: 30px 0px;
+}
+
+footer h2{
+    text-align: center;
+}
+
+.question{
+    border: 2px solid black;
+    width: 500px;
+    padding: 10px;
+}
+
+.question textarea{
+    resize: none;
+    width: 450px;
+    height: 150px;
+}
+
+#soushin{
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.soushinbtn{
+    text-align: center;
+}
